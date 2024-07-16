@@ -118,11 +118,16 @@ button {
     color: #1f2937 ;
     display: flex;
     flex-direction: column;
-    padding: 32px;
-    margin: 0;
-    justify-content: center;
+    padding: 100px;
+    margin: 0px;
+    /* justify-content: center; */
     padding: 80px;
+    box-sizing: border-box;
     align-items: center;
+}
+
+.qoutecontainer {
+    max-width: 710px;
 }
 
 .quotetext {
@@ -131,8 +136,9 @@ button {
     font-size: 32px;
     font-weight: lighter; 
     margin-bottom: 10px;
-    text-align: center
+    /* text-align: center */
 }
+
 
 .quoteauthor {
     font-weight: 600;
@@ -184,5 +190,10 @@ button {
 }
 
 .subfooter .button {
-    border: 2px solid white; /* Add a white border */
+    border: 1px solid white; /* Add a white border */
+}
+
+.call-to-action {
+    font-size: large;
+    font-weight: 600;
 }
